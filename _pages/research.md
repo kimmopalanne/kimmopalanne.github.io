@@ -11,7 +11,7 @@ author_profile: true
 ### Working Papers
 
 {% include base_path %}
-{% for post in site.publications reversed %}
+{% for post in site.research reversed %}
   {% if post.categories contains 'workingpaper' %}
   {% include archive-single.html %}
     {% endif %}
@@ -23,7 +23,7 @@ author_profile: true
 ### Publications
 
 {% include base_path %}
-{% for post in site.publications reversed %}
+{% for post in site.research reversed %}
   {% if post.categories contains 'journal' %}
   {% include archive-single.html %}
     {% endif %}
@@ -36,7 +36,7 @@ author_profile: true
 
 
 {% include base_path %}
-{% for post in site.publications reversed %}
+{% for post in site.research reversed %}
   {% if post.categories contains 'policy' %}
   {% include archive-single.html %}
     {% endif %}
