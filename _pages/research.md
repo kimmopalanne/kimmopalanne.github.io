@@ -17,8 +17,7 @@ author_profile: true
     {% endif %}
 {% endfor %}
 
-
-
+<hr class="new1">
 
 ### Publications
 
@@ -29,8 +28,7 @@ author_profile: true
     {% endif %}
 {% endfor %}
 
-
-
+<hr class="new1">
 
 ### Policy work
 
