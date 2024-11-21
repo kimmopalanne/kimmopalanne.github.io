@@ -2,7 +2,7 @@
 title: "Public Transportation Pricing and Car Use"
 collection: research
 category: workingpaper
-date: 2024
+date: 2024-09-01
 venue: ''
 paperurl: '/files/Public_Transportation_Pricing_and_Car_Use.pdf'
 citation: ''
