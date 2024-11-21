@@ -3,7 +3,7 @@ title: "The heterogeneous incidence of fuel carbon taxes: Evidence from station-
 collection: research
 category: journal
 permalink:
-date: 2022
+date: 2022-03-01
 author: (with [Jarkko Harju](https://sites.google.com/view/jarkkoharju/home), [Tuomas Kosonen](https://tuomaskosonen.wixsite.com/site) and [Marita Laukkanen](https://vatt.fi/en/researcher/laukkanen-marita))
 venue: 'Journal of Environmental Economics and Management 112: 102607'
 link: 'https://doi.org/10.1016/j.jeem.2021.102607'
