@@ -5,10 +5,7 @@ title: "Research"
 author_profile: true
 ---
 
-
-
-
-### Working Papers
+## Working Papers
 
 {% include base_path %}
 {% for post in site.research reversed %}
@@ -19,7 +16,7 @@ author_profile: true
 
 <hr class="new1">
 
-### Publications
+## Publications
 
 {% include base_path %}
 {% for post in site.research reversed %}
@@ -30,8 +27,7 @@ author_profile: true
 
 <hr class="new1">
 
-### Policy work
-
+## Policy work
 
 {% include base_path %}
 {% for post in site.research reversed %}
