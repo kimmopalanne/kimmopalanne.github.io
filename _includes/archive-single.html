@@ -27,11 +27,7 @@
     {% endif %}
 
     <h3>
-      {% if post.collection == 'workingpaper' %}
-        {{ title }}
-      {% elsif post.collection == 'journal' %}
-        {{ title }} 
-	    {% elsif post.collection == 'policy' %}
+      {% if collection == 'research' %}
         {{ title }}
       {% endif %}
     </h3>
