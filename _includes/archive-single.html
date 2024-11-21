@@ -34,8 +34,12 @@
       {% endif %}
     </h3>
 
-    {% if post.author and post.venue %}
-        {{ post.author }}<br><em>{{ post.venue }}</em></p>
+    {% if post.author %}
+        {{ post.author }}
+    {% endif %}
+
+    {% if post.venue %}
+        <em>{{ post.venue }}</em>
     {% endif %}
       
     {% if post.abstract %}
