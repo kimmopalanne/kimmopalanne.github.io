@@ -36,6 +36,20 @@
       {% endif %}
     </h3>
 
+    {% if post.author %}
+        <p1>{{ post.author }}  </p1>
+    {% endif %}
+      
+    {% if post.abstract %}
+        <details><summary>Abstract</summary>
+        <blockquote>
+        <p align="justify" >
+        {{ post.abstract }}
+        </p>
+        </blockquote>
+        </details>
+    {% endif %}
+
     {% if post.collection == 'publications' %}
       <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.date %}
