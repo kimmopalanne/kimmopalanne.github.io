@@ -34,14 +34,8 @@
       {% endif %}
     </h3>
 
-    {% if post.author %}
-        <p>{{ post.author }}</p>
-    {% endif %}
-
-    {% if post.venue and post.category == 'journal' %}
-        <p><em>{{ post.venue }}</em></p>
-    {% elsif post.venue and post.category == 'policy' %}
-        <p><em>{{ post.venue }}</em></p>
+    {% if post.author and post.venue %}
+        <p>{{ post.author }}<br><em>{{ post.venue }}</em></p>
     {% endif %}
       
     {% if post.abstract %}
