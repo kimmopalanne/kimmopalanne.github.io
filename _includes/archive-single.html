@@ -39,9 +39,9 @@
     {% endif %}
 
     {% if post.venue and post.category == 'journal' %}
-        <br><em>{{ post.venue }}</em>
+        <p><em>{{ post.venue }}</em></p>
     {% elsif post.venue and post.category == 'policy' %}
-        <br><em>{{ post.venue }}</em>
+        <p><em>{{ post.venue }}</em></p>
     {% endif %}
       
     {% if post.abstract %}
