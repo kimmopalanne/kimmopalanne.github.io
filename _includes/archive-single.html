@@ -35,13 +35,13 @@
     </h3>
 
     {% if post.author %}
-        <p1>{{ post.author }}  </p1>
+        <p>{{ post.author }}</p>
     {% endif %}
 
     {% if post.venue and post.category == 'journal' %}
-        <p1>{{ post.venue }}  </p1>
+        <p><em></em>{{ post.venue }}</em></p>
     {% elsif post.venue and post.category == 'policy' %}
-        <p1>{{ post.venue }}  </p1>
+        <p><em>{{ post.venue }}</em></p>
     {% endif %}
       
     {% if post.abstract %}
