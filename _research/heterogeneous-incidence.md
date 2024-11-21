@@ -4,7 +4,7 @@ collection: research
 category: journal
 permalink:
 date: 2022-03-01
-author: (with [Jarkko Harju](https://sites.google.com/view/jarkkoharju/home), [Tuomas Kosonen](https://tuomaskosonen.wixsite.com/site) and [Marita Laukkanen](https://vatt.fi/en/researcher/laukkanen-marita))
+author: (with Jarkko Harju, Tuomas Kosonen and Marita Laukkanen)
 venue: 'Journal of Environmental Economics and Management 112: 102607'
 link: 'https://doi.org/10.1016/j.jeem.2021.102607'
 paperurl: '/files/The_heterogeneous_incidence_of_fuel_carbon_taxes_Evidence_from_station_level_data.pdf'
