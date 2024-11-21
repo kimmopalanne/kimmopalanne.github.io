@@ -34,10 +34,8 @@
       {% endif %}
     </h3>
 
-    {% if post.date and post.author and post.venue %}
-        <p><strong>{{ post.date | default: "1900-01-01" | date: "%Y" }}</strong>
-          <br>{{ post.author }}
-          <br><em>{{ post.venue }}</em></p>
+    {% if post.author and post.venue %}
+        {{ post.author }}<br><em>{{ post.venue }}</em></p>
     {% endif %}
       
     {% if post.abstract %}
