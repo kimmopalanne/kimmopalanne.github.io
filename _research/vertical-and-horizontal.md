@@ -2,7 +2,7 @@
 title: "Vertical and Horizontal Distribution of Fuel Tax Burdens: Evidence from Odometer Records in Finland"
 collection: research
 category: workingpaper
-date: 2024
+date: 2024-09-01
 author: (with [Arttu Ahonen](https://sites.google.com/view/arttuahonen))
 venue: ''
 paperurl: '/files/Vertical_and_Horizontal_Distribution_of_Fuel_Tax_Burdens_Evidence_from_Odometer_Records_in_Finland.pdf'
